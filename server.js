@@ -6,11 +6,11 @@ const cors = require("cors");
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World! testour");
 });
 
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from the API!" });
+  res.json({ message: "Hello from the API! test" });
 });
 
 app.listen(port, () => {
